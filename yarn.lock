@@ -2918,10 +2918,10 @@ docfree-component-loader@^0.2.11:
   dependencies:
     docfree-utils "^0.2.11"
 
-docfree-components@^0.2.18:
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/docfree-components/-/docfree-components-0.2.18.tgz#fda34682f0489688db9fe0f100bec8259fd52444"
-  integrity sha512-h26QY7vf+iwHvs7ol1VNyE5bduPvv6LLwc1KjOFho0SnxfmloqRf1LUdOVXagEs3qmr0AR/deFURWayudCCWHA==
+docfree-components@^0.2.19:
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/docfree-components/-/docfree-components-0.2.19.tgz#1db9537e6cae27021c1569d318131990cd921902"
+  integrity sha512-NIV6gBWxVBFzhqpqkAKdqaj+AhYz4wwR1o5dieMP4niYfKbWfQXw4g57CeHfJ57jOXvs32VZ4oDAnu/gxDDHHA==
   dependencies:
     "@ant-design/icons" "^4.0.3"
     antd "^4.0.4"
@@ -2994,10 +2994,10 @@ docfree-utils@^0.2.11:
     unist-util-visit "^2.0.2"
     vfile "^4.1.0"
 
-docfree-webpack@^0.2.18:
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/docfree-webpack/-/docfree-webpack-0.2.18.tgz#fd7d7f2535692fcc6bc0ba891a89346cd0b89f92"
-  integrity sha512-1fVp1mYoZ/WG/ugm1HtLn7eu/9ZMvh/FuGgxFflWhikeMIHVfgDDEOGdCV04PTQvfSEoXaf00flvR/6489wYPA==
+docfree-webpack@^0.2.19:
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/docfree-webpack/-/docfree-webpack-0.2.19.tgz#3112781c0150b2290ad54c7b8246def156badd3e"
+  integrity sha512-C1oBir9jMWw5XyL56BGmUo3fFvBMjwSHskR0fzn1N/j3afMHQ6mcDGeI4m+4+la4ly1Z4JbCJG7K42Gk3Wm8zg==
   dependencies:
     autoprefixer "^9.7.4"
     babel-loader "^8.0.6"
@@ -3007,7 +3007,7 @@ docfree-webpack@^0.2.18:
     copy-webpack-plugin "^5.1.1"
     css-loader "^3.4.2"
     docfree-component-loader "^0.2.11"
-    docfree-components "^0.2.18"
+    docfree-components "^0.2.19"
     docfree-loader "^0.2.17"
     docfree-prop-types "^0.2.16"
     docfree-utils "^0.2.11"
@@ -3026,16 +3026,16 @@ docfree-webpack@^0.2.18:
     webpack-dev-server "^3.10.3"
     webpack-merge "^4.2.2"
 
-docfree@^0.2.18:
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/docfree/-/docfree-0.2.18.tgz#3d1babff859ade0c7a5d18258bfb35d7d0431a4c"
-  integrity sha512-56c122BAz7IEGRgRhomY3NB1R/k5LzcA5XXW7et2lHSVQ+m4jtUANNzHm7NQzgjCbZdI79zNn1uRp7yoYch4/g==
+docfree@^0.2.19:
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/docfree/-/docfree-0.2.19.tgz#a083f91278d585a824f9431e2184e457bda7a12f"
+  integrity sha512-rs5KVDuv8LuKSZSmzL+quorU5+LUpaVP/rLO9ahrWf6mQ9p9/LV678M275Yxjd5WXZy4kbSPa46kEYBeikM1LA==
   dependencies:
     commander "^4.1.1"
     docfree-generate "^0.2.11"
     docfree-template "^0.2.7"
     docfree-utils "^0.2.11"
-    docfree-webpack "^0.2.18"
+    docfree-webpack "^0.2.19"
 
 dom-align@^1.7.0:
   version "1.11.1"
