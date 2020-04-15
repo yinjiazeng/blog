@@ -12,7 +12,7 @@ const routes = [
   },
   {
     "ctime": 1586864388295.826,
-    "utime": 1586950231802.1055,
+    "utime": 1586953177765.0986,
     "pathname": "/",
     "filename": "about",
     "ext": ".md",
@@ -58,7 +58,7 @@ const routes = [
       },
       {
         "ctime": 1586950258282.7258,
-        "utime": 1586950258282.7258,
+        "utime": 1586953110892.0593,
         "pathname": "/life/",
         "filename": "骑着电动车去大理",
         "ext": ".md",

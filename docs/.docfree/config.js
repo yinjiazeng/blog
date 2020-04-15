@@ -21,4 +21,5 @@ module.exports = {
     path: 'https://github.com/yinjiazeng/blog/blob/master/docs'
   },
   footer: 'MIT Licensed | Copyright © 2020-present',
+  plugins: ['emoji'],
 };
