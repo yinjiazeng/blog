@@ -7238,10 +7238,13 @@ remark-docfree-props@^0.2.20:
   dependencies:
     docfree-utils "^0.2.20"
 
-remark-docfree-valine@^0.2.20:
-  version "0.2.20"
-  resolved "https://registry.yarnpkg.com/remark-docfree-valine/-/remark-docfree-valine-0.2.20.tgz#e5f90c6f7a03050700f6ab90820473bd25db9a7c"
-  integrity sha512-eGglS4aOJV9A+kcrzJMxC19pUEu/UsftDKgqKddaq6vaeLBPadZZww1Y4PbvBusMzYso/0LzIhS6bVpXcrWT6Q==
+remark-docfree-valine@^0.2.21:
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/remark-docfree-valine/-/remark-docfree-valine-0.2.21.tgz#e82f2aadf2bdce6bbf5a6202d3a603fa34ff73fe"
+  integrity sha512-LJKcLrEl/azxr8tP9xI2VKjES/doHJXhwBW77RjfWr5ZaM+rOTW8R9l+OwGB7nwio5PTE1KVWM095jPo4XMarw==
+  dependencies:
+    leancloud-storage "^4.5.3"
+    valine "^1.4.4"
 
 remark-docfree-vue@^0.2.20:
   version "0.2.20"

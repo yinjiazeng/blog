@@ -17,9 +17,7 @@
   "homepage": "https://github.com/yinjiazeng/blog#readme",
   "dependencies": {
     "docfree": "^0.2.20",
-    "leancloud-storage": "^4.5.3",
-    "remark-docfree-valine": "^0.2.20",
-    "remark-emoji": "^2.1.0",
-    "valine": "^1.4.4"
+    "remark-docfree-valine": "^0.2.21",
+    "remark-emoji": "^2.1.0"
   }
 }
