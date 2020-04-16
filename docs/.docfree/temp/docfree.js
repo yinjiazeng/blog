@@ -12,7 +12,7 @@ const routes = [
   },
   {
     "ctime": 1586864388295.826,
-    "utime": 1586957256504.6594,
+    "utime": 1587047849110.914,
     "pathname": "/",
     "filename": "about",
     "ext": ".md",
@@ -29,6 +29,34 @@ const routes = [
         "children": <Docfree.BlogEntry pageSize={30} />
       },
       {
+        "path": "/Nginx",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Nginx/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/Nodejs",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Nodejs/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
         "path": "*",
         "children": <Docfree.NotFound />
       }
@@ -41,6 +69,132 @@ const routes = [
         "path": "/",
         "pathname": "/front-end/",
         "children": <Docfree.BlogEntry pageSize={30} />
+      },
+      {
+        "path": "/AST",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/AST/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/CSS",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/CSS/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/HTML",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/HTML/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/JQuery",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/JQuery/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/Javascript",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Javascript/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/React",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/React/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/Typescript",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Typescript/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/Vue",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Vue/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
+      },
+      {
+        "path": "/Webpack",
+        "children": [
+          {
+            "path": "/",
+            "pathname": "/Webpack/",
+            "children": <Docfree.BlogEntry pageSize={30} />
+          },
+          {
+            "path": "*",
+            "children": <Docfree.NotFound />
+          }
+        ]
       },
       {
         "path": "*",
