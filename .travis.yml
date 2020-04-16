@@ -1,0 +1,15 @@
+# 使用语言
+language: node_js
+# node版本
+node_js:
+- '10'
+
+before_install:
+# 生成私钥
+- openssl aes-256-cbc -K $encrypted_5cab76ca3150_key -iv $encrypted_5cab76ca3150_iv
+  -in ./.travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+# 获取读取权限
+- chmod 600 ~/.ssh/id_rsa
+
+# 运行脚本
+script: npm run deploy
