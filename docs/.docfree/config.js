@@ -21,5 +21,11 @@ module.exports = {
     path: 'https://github.com/yinjiazeng/blog/blob/master/docs'
   },
   footer: 'MIT Licensed | Copyright © 2020-present',
-  plugins: ['emoji'],
+  plugins: [
+    'emoji',
+    ['docfree-valine', {
+      appId: 'MD2yAhzrq1utFR2VxH2oU1YF-gzGzoHsz',
+      appKey: 'qbn6SClpr7xzhzHdtWNnNSYi',
+    }]
+  ],
 };

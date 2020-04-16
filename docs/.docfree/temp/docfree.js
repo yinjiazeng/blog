@@ -78,7 +78,7 @@ const documentTitle = '前端阿牛の博客';
 const generateData = (rawData, data = []) => {
   rawData.forEach((route) => {
     if (route.path !== '*') {
-      const { children, render, effects, onInit, onChange, ...rest } = route;
+      const { children, render, effects, reducers, onInit, onChange, ...rest } = route;
       if (Array.isArray(children)) {
         data = generateData(children, data);
       } else if (route.path !== '/' && route.title) {
