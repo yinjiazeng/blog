@@ -71,20 +71,6 @@ const routes = [
         "children": <Docfree.BlogEntry pageSize={30} />
       },
       {
-        "path": "/AST",
-        "children": [
-          {
-            "path": "/",
-            "pathname": "/AST/",
-            "children": <Docfree.BlogEntry pageSize={30} />
-          },
-          {
-            "path": "*",
-            "children": <Docfree.NotFound />
-          }
-        ]
-      },
-      {
         "path": "/CSS",
         "children": [
           {
@@ -449,11 +435,55 @@ nuomi.config({
 const nav = getNavMenus([
   {
     "text": "前端",
-    "to": "/front-end"
+    "to": "/front-end",
+    "menus": [
+      {
+        "text": "Javascript",
+        "to": "/front-end/Javascript"
+      },
+      {
+        "text": "Typescript",
+        "to": "/front-end/Typescript"
+      },
+      {
+        "text": "React",
+        "to": "/front-end/React"
+      },
+      {
+        "text": "Vue",
+        "to": "/front-end/Vue"
+      },
+      {
+        "text": "JQuery",
+        "to": "/front-end/JQuery"
+      },
+      {
+        "text": "Webpack",
+        "to": "/front-end/Webpack"
+      },
+      {
+        "text": "CSS",
+        "to": "/front-end/CSS"
+      },
+      {
+        "text": "HTML",
+        "to": "/front-end/HTML"
+      }
+    ]
   },
   {
     "text": "后端",
-    "to": "/back-end"
+    "to": "/back-end",
+    "menus": [
+      {
+        "text": "Nginx",
+        "to": "/back-end/Nginx"
+      },
+      {
+        "text": "Nodejs",
+        "to": "/back-end/Nodejs"
+      }
+    ]
   },
   {
     "text": "生活",
@@ -468,7 +498,7 @@ const nav = getNavMenus([
     "to": "https://github.com/yinjiazeng"
   }
 ]);
-const footer = 'MIT Licensed | Copyright © 2020-present';
+const footer = require('/Users/aniu/Documents/GitHub/blog/docs/.docfree/footer.js');
 const routerType = 'hash';
 
 const globalState = {

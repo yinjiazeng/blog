@@ -1,12 +1,36 @@
+const path = require('path');
+const FrontEndPath = '/front-end';
+const BackEndPath = '/back-end';
+
 module.exports = {
   title: '前端阿牛の博客',
   mode: 'blog',
   nav: [{
     text: '前端',
-    to: '/front-end',
+    to: FrontEndPath,
+    menus: [
+      'Javascript', 
+      'Typescript', 
+      'React', 
+      'Vue', 
+      'JQuery', 
+      'Webpack', 
+      'CSS', 
+      'HTML',
+    ].map((item) => ({
+      text: item,
+      to: `${FrontEndPath}/${item}`,
+    }))
   }, {
     text: '后端',
-    to: '/back-end',
+    to: BackEndPath,
+    menus: [
+      'Nginx',
+      'Nodejs',
+    ].map((item) => ({
+      text: item,
+      to: `${BackEndPath}/${item}`,
+    })),
   }, {
     text: '生活',
     to: '/life',
@@ -20,7 +44,7 @@ module.exports = {
   pageExtra: {
     path: 'https://github.com/yinjiazeng/blog/blob/master/docs'
   },
-  footer: 'MIT Licensed | Copyright © 2020-present',
+  footer: path.resolve(__dirname, './footer.js'),
   plugins: [
     'emoji',
     ['docfree-valine', {
