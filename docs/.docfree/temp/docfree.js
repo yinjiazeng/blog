@@ -214,11 +214,11 @@ const routes = [
         "ctime": 1586950258282.7258,
         "utime": 1586953110892.0593,
         "pathname": "/life/",
-        "filename": "骑着电动车去大理",
+        "filename": "骑行去大理",
         "ext": ".md",
-        "title": "骑着电动车去大理",
-        "path": "/骑着电动车去大理",
-        ...require("/Users/aniu/Documents/GitHub/blog/docs/life/骑着电动车去大理.md").default
+        "title": "骑行去大理",
+        "path": "/骑行去大理",
+        ...require("/Users/aniu/Documents/GitHub/blog/docs/life/骑行去大理.md").default
       },
       {
         "path": "*",
