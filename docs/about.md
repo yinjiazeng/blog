@@ -12,7 +12,6 @@
 ## 技术标签
 
 `React`
-`Vue`
 `jQuery`
 `CSS`
 `HTML`
@@ -26,6 +25,7 @@
 
 - [nuomi](https://github.com/nuomijs/nuomi) 基于react+redux封装的单页数据流解决方案
 - [docfree](https://github.com/yinjiazeng/docfree) 基于webpack+nuomi开发的文档生成工具（本站基于该工具生成）
+- [antd-lite](https://github.com/yinjiazeng/antd-lite) 轻量版antd组件库
 - [NginxGUI](https://github.com/yinjiazeng/NginxGUI) 基于electron+nuomi开发的Nginx图形化管理工具
 - [readmine-helper](https://github.com/yinjiazeng/readmine-helper) readmine谷歌浏览器插件
 - [nui](https://github.com/yinjiazeng/nui) 基于jQuery封装的模块化UI框架
