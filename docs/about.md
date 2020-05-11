@@ -21,12 +21,11 @@
 `Typescript`
 `Webpack`
 `Gulp`
-`PHP`
 `Electron`
 
 ## 个人优势
 
-上得了厅堂（写业务），下得了厨房（写工具写框架）。
+带得了团队，写得了业务，顶得了压力，扛得了担子，造得了工具，搭得了框架。
 
 ## 主要项目
 
@@ -41,7 +40,7 @@
 
 ## 主要作品
 
-- [nuomi](https://github.com/nuomijs/nuomi) 基于react+redux封装的单页应用数据流解决方案
+- [nuomi](https://github.com/nuomijs/nuomi) 基于react+redux封装的单页应用框架
 - [docfree](https://github.com/yinjiazeng/docfree) 基于webpack+nuomi开发的文档生成工具（本站基于该工具生成）
 - [antd-lite](https://github.com/yinjiazeng/antd-lite) 轻量版antd组件库
 - [react-less](https://github.com/yinjiazeng/react-less) 轻量版React框架
