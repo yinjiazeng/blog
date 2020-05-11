@@ -1,8 +1,3 @@
-
-  if (typeof btoa === 'undefined') {
-    window.btoa = function() {}
-  }
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, ShapeRoute, Nuomi, store, nuomi } from '@nuomi';

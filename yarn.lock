@@ -3066,19 +3066,19 @@ docfree-component-loader@^0.5.0:
   dependencies:
     docfree-utils "^0.5.0"
 
-docfree-components@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/docfree-components/-/docfree-components-0.5.0.tgz#fe20143ef8d27111a162206167c676febd76544b"
-  integrity sha512-TEPLx9ggYABKRxjXtJQroq3tLS4aOXoZGJnEiSGr5ViHs5M3w/1qiiKGVDLkeWBGqH7hGDUmFwq4KoMV0AzODg==
+docfree-components@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/docfree-components/-/docfree-components-0.5.1.tgz#a04ad30da8be617dafbec91143b03d889416c86b"
+  integrity sha512-ur3ROloS5otaVC/O0K8KmSlaJGWi6ZjHRrGIdBybXgMgtOqOrSugSp0drb9+rf/WzJUEe5AjjB6OkhIfUAKOxw==
   dependencies:
     date-format "^3.0.0"
     docfree-utils "^0.5.0"
     prop-types "^15.7.2"
 
-docfree-generate@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/docfree-generate/-/docfree-generate-0.5.0.tgz#27cc8c2b521614b139a0b8c1b500eec49be2abda"
-  integrity sha512-gIIc31jpNSH3+XqB5wLAaCYybruUzzbWOssMtWGyBP516Q3gQ40OBk0tcIyqGpB5HYtvK+JoVtbhlgQzjjhkbQ==
+docfree-generate@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/docfree-generate/-/docfree-generate-0.5.4.tgz#7df07252f3dc6c1a95313251eb55c08a3bd44c7a"
+  integrity sha512-fOICopGLYv/z5RwvkUGh9KdH0O0MU2wAMf7DReKETN2yBnPcGKpcgDxEoRRC/UHnos2tNqyUXC024akBzqOraQ==
   dependencies:
     chokidar "^3.3.1"
     docfree-utils "^0.5.0"
@@ -3137,10 +3137,10 @@ docfree-utils@^0.5.0:
     unist-util-visit "^2.0.2"
     vfile "^4.1.0"
 
-docfree-webpack@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/docfree-webpack/-/docfree-webpack-0.5.0.tgz#e850a6f1a2fb8a185d4002268de612c2ba1b5fda"
-  integrity sha512-U1c1K3NHigzkLITpjkhJP83zBAW9an/PblZuW6YKwfgjoijDrX0xyZXTcxTqTNRZYhKenwuDJS5N7rFKppNsTQ==
+docfree-webpack@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/docfree-webpack/-/docfree-webpack-0.5.5.tgz#12c91a0e027db43f38f6f153bf6343382a0719db"
+  integrity sha512-QegmnYKGfNu4SqBdGJp+WHKDd2WSnacgXLjgQLomWD7L5p4xL4pmWRrW2OfVPNtxm0E9Rh2z1f7SsQxJI5IW/Q==
   dependencies:
     "@babel/polyfill" "^7.8.7"
     antd "3.x"
@@ -3153,7 +3153,7 @@ docfree-webpack@^0.5.0:
     css-loader "^3.4.2"
     date-format "^3.0.0"
     docfree-component-loader "^0.5.0"
-    docfree-components "^0.5.0"
+    docfree-components "^0.5.1"
     docfree-loader "^0.5.0"
     docfree-prop-types "^0.5.0"
     docfree-utils "^0.5.0"
@@ -3177,16 +3177,16 @@ docfree-webpack@^0.5.0:
     webpack-dev-server "^3.10.3"
     webpack-merge "^4.2.2"
 
-docfree@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/docfree/-/docfree-0.5.0.tgz#09a05ba056c3802c99b72a55fbb113de41f6a54a"
-  integrity sha512-Uw762439Ak+RdKlDcPmrafYkWsdmLkq0hylrnICSef0/S7cjflBbmXGIfUyuPKbW8jl6DzHha3CgGbHukajs5g==
+docfree@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/docfree/-/docfree-0.5.5.tgz#30148ff2e281ccfdeacdca13156de8daeba95edf"
+  integrity sha512-ht/TqwqEUaDHekMG+FKK3VAsKH+2WDcL84zTiqd1rLTK9IqmZufCYDx55QfFATfQdJriVAk/fGe9TI4AWY63vw==
   dependencies:
     commander "^4.1.1"
-    docfree-generate "^0.5.0"
+    docfree-generate "^0.5.4"
     docfree-template "^0.5.0"
     docfree-utils "^0.5.0"
-    docfree-webpack "^0.5.0"
+    docfree-webpack "^0.5.5"
 
 dom-align@^1.7.0:
   version "1.11.1"
